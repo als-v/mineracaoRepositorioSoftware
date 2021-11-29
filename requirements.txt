@@ -1,3 +1,10 @@
-PyGithub
+regex
+numpy
 pandas
+seaborn
+PyGithub
+DateTime
 requests
+matplotlib
+scikit-learn
+plotly-express
