@@ -1,5 +1,5 @@
 # Mineração de dados do Github 
-Temos como objetivo neste trabalho realizar a mineração de dados no repositório <a href="https://github.com/zulip/zulip">Zulip</a>, para tentar compreender o que faz uma *Issue* ser classificada como dificil.
+O objetivo deste trabalho é realizar a mineração de dados no repositório <a href="https://github.com/zulip/zulip">Zulip</a>, para compreender o que faz uma *Issue* ser classificada como difícil.
 
 <h2> Integrantes</h2>
 
