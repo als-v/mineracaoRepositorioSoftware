@@ -21,7 +21,7 @@ Logo após a instalação dos requisitos, é necessário abrir o arquivo `minera
 Com tudo isso feito, podemos abrir o arquivo `visualizacao.ipynb` com o Jupyter Notebook, no qual conterá as visualizações e resutados obtidos através dos testes estátisticos para os atributos da base dos dados minerados.
 
 # Metodologia
-Utilizamos o módulo `PyGithub` para mineração dos dados de *Pull Requests* fáceis e difíceis do repositório Zulip. Como há mais dados de *Pull Requests* fáceis do que dificeis, optamos por separar as fáceis em dois conjuntos de mesmo tamanho das dificeis, os quais foram chamados de treino e validação. <br>
+Utilizamos o módulo `PyGithub` para mineração dos dados de *Pull Requests* fáceis e difíceis do repositório Zulip. Como há mais *Pull Requests* fáceis do que dificeis, optamos por separar as fáceis em dois conjuntos de mesmo tamanho das dificeis, os quais foram chamados de conjunto de treino e validação. <br>
 
 A partir desses conjuntos utilizamos técnicas estatísticas para analisar cada atributo com o teste Mann Whitney (p-value), e o valor de Effect Size (d), além de utilizar *boxplots* para uma melhor visualização dos dados. 
 
