@@ -14,7 +14,7 @@ Para o desenvolvimento do projeto foi utilizado a linguagem de programação <a 
 Divimos todo o processo em duas partes: mineração e análise de dados. Para executar os arquivos, é necessário instalar alguns requisitos através do seguinte comando:
 
 ```bash
-pip install requirements.txt 
+pip install -r requirements.txt 
 ```
 Logo após a instalação dos requisitos, é necessário abrir o arquivo `mineracao.ipynb` com o Jupyter Notebook, este arquivo conterá as instruções para o uso do token de acesso à API do GitHub. Após a execução do código será gerado um arquivo `.csv`, contendo os dados minerados. <br>
 
